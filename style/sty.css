@@ -174,3 +174,22 @@ nav{
   align-items: center;
   background-position: center;
 }
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-coloum{
+  width: 50%;
+}
+footer input[type ="name"],footer input[type ="email"]footer input[type ="text"]{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+
+}
