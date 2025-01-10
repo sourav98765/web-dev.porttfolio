@@ -92,7 +92,7 @@ nav{
     text-align: center;
   }
   .second-bg{
-     color: #FFF8F3; /*problem holo background-color: add hoi na ; */
+     background-color: #FFF8F3; /*problem holo background-color: add hoi na ; */
   } 
   main{
     max-width: 1140px;
@@ -112,21 +112,21 @@ nav{
   }
   .item-description{
     font-weight: bold;
-    display: flex;
+    /* display: flex; */
   }
-  .about-item{
+  .about-items{
    
-     display: flex;
+     display: flex; 
     justify-content: space-around;
-    text-align: center;
-    /* border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #f9f9f9;   */
-  } 
-  /* .item-title{
+    text-align: center; */
+     border : 1px solid #ccc;
+     padding : 30px; 
+    /* background-color: #f9f9f9;    */
+  }  
+   .item-title{
     font-weight: bold;
     display: inline;
-  } */
+  } 
    .skill-container{
     display:flex;
     gap: 24px;
@@ -139,3 +139,38 @@ nav{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px #D1D1D1;
    }
+   /* .about-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   } */
+    .resume-container{
+      display: flex;
+      gap: 24px;
+    
+
+    }
+    .about-bg{
+      background-color: white;
+      padding: 20px;
+    }
+    .experience-desription,.experience-sub-title{
+      color: #757575;
+      margin-bottom: 20px;
+    }
+    .experience-sub-title{
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 20px;
+     
+
+    }
+   .resume-column-title{
+    margin: 30px 5px;
+   }
+.text-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
