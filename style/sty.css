@@ -32,6 +32,7 @@ nav{
   .nav-title{
     font-weight:800; 
     font-size: 45px;
+    color: #181818;
     
   }
   nav ul li{
@@ -79,3 +80,62 @@ nav{
   .banner-content{
     max-width: 580px;
   }
+  .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+  }
+  .section-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+  }
+  .second-bg{
+     color: #FFF8F3; /*problem holo background-color: add hoi na ; */
+  } 
+  main{
+    max-width: 1140px;
+    margin: 0 auto ;
+  }
+  main section{
+    margin-top: 130px; 
+    /* margin-bottom: 130px; */
+  }
+  .about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    /* margin-top: 130px; */
+
+
+  }
+  .item-description{
+    font-weight: bold;
+    display: flex;
+  }
+  .about-item{
+   
+     display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;   */
+  } 
+  /* .item-title{
+    font-weight: bold;
+    display: inline;
+  } */
+   .skill-container{
+    display:flex;
+    gap: 24px;
+    /* padding: 33px; */
+    /* margin-top: 104px;
+    margin-bottom: 30px; */
+   }
+   .skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px #D1D1D1;
+   }
